@@ -50,6 +50,7 @@ input{
     height: 40px;
     width: 392px;
     padding: 0 12px;
+    border: 1px solid black;
 }
 select{
     font-weight: 400;
@@ -58,12 +59,9 @@ select{
     width: 420px;
     padding: 9px 10px;
 }
-.date{
-    
-    background-color: #ADADAD;
-}
 .bluefont{
     color: #0050D8;
+    width: 420px;
 }
 .checkbox-column{
     display: flex;
@@ -80,7 +78,7 @@ select{
     display: flex;
     align-items:flex-end;
 }
-.checkbox:hover{
+#checkbox:hover{
     background-color: #FF00FF;
 }
 .line{
@@ -99,6 +97,7 @@ select{
     margin-top: 16px;
 }
 .search-background {
+    width: 420px;
     background-image: url(./search.svg);
     background-repeat: no-repeat;
     background-position: right 0.5rem bottom 0.5rem;
